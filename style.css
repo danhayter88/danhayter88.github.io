@@ -1,0 +1,53 @@
+body {
+	max-width: 800px;
+	margin: 0 auto;
+	font-family: Courier;
+}
+
+header {
+	width: 100%;	
+}
+
+nav {
+	z-index: 1;
+	position: fixed;
+	top: 0px;
+}
+
+nav ul {
+	display: block;
+	padding: 0px;
+}
+
+nav li {
+	color: blue;
+	background-color: red;
+	display: inline-block;
+	text-align: center;
+	padding: 0px;
+
+}
+
+nav li:hover {
+	background-color: blue;
+}
+
+main {
+	background-color: rgb(100, 100, 100);
+	width: 75%;
+	float: left;
+}
+
+footer {
+	background-color: blue;
+	width: 100%;
+	clear: both;
+}
+
+
+
+aside {
+	display: inline-block;
+	float: right;
+	width: 25%;
+}
